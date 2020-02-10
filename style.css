@@ -1,0 +1,214 @@
+body{
+    font-size: 20px;
+    font-weight:normal;
+    font-style: italic;
+    line-height: 20px;
+
+
+    background-color:#e0dede;
+    color:#746a6a;
+
+    font-size:12px;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.clr{
+    clear:both;
+
+
+}
+
+.box-1{
+    font-size:25px;
+    border:2px dashed #000;
+    background-color: rgb(211, 202, 202);
+    color:rgb(53, 32, 71);
+    padding:100px;
+    padding-top:10px;
+    text-align:left;
+    border:5px rgb(104, 92, 92) solid;
+    border-width:3px;
+    border-style: dotted;
+
+    padding :20px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.box-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline ;
+    text-transform: uppercase ;
+    letter-spacing:0em;
+    word-spacing:0em;
+}
+
+
+.box-2{
+    margin:30px 10px 10px 10px;
+    border:3px solid  rgb(19, 18, 18);
+    padding:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+ 
+}
+a{
+    text-decoration: none;
+    color:rgb(58, 14, 48);
+}
+a:hover{
+    color:rgb(170, 6, 6);
+}
+a:active{
+    color:rgb(76, 58, 155);
+}
+
+.categories{
+        border:5px  #3b0a0a dotted;
+        padding:10px;
+        border-radius:15px;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 800;
+        color:black;
+        background-color: rgb(241, 224, 224);
+
+
+}
+.categories h2{
+    text-align:center ;
+}
+
+.categories ul{
+    padding:4;
+    list-style: square;
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom:solid 1px #333;
+   
+
+}
+
+
+.myform{
+    padding:20px;
+    
+}
+.myform .form-group{
+    padding-bottom: 2px;
+}
+
+.myform label{
+    display:block;
+}
+.myform input[type="text"], .myform textarea{
+    padding:4px;
+    width: 40%;
+}
+
+.myform input[type="submit"]{
+    background: rgb(54, 23, 54);
+    color:rgb(250, 249, 249);
+    padding:6px 20px;
+    border:none;
+}
+
+.button:hover{
+    background: rgb(135, 52, 151)!important;
+    color: #ffffff;
+    /* padding: 10px 15px; */
+    border:none;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #746a6a;
+    padding: 5px;
+    box-sizing: border-box;
+
+
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    color:rgb(48, 48, 48);
+    font-size: 1em;
+    font-weight: 900;
+  
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: rgb(68, 64, 64);
+    color:rgb(241, 238, 238);
+    font-weight: 800;
+    font-size: 1em;
+    padding:10px;
+    box-sizing :border-box;
+
+}
+
+.p-box{
+    margin:0 auto;
+    width: 800px;
+    height:300px;
+    border:2px solid #000000;
+    margin-top: 30px;
+    position:relative ;
+    background-image:url('../css/img2.png') ;
+   
+}
+
+
+.p-box h1{
+
+    position: absolute; ;
+    top:100px;
+    left:200px;
+    
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    left:100px;
+}
+
+
+
+
+
+.fix-me{
+    position: fixed;
+    top:400px;
+    background-color: rgb(40, 39, 41);
+    height: 30px;
+    color: blanchedalmond;
+    width: 4rem;
+    
+
+}
+
+.fix-me:hover{
+    width: 6rem;
+    transition: all 0.3s;
+    background-color: rgb(61, 17, 48)!important;
+}
+
+.mylist li:first-child{
+    background: darkgrey;
+
+}
+.mylist li:last-child{
+    background: darkgrey;
+}
+
+.mylist li:nth-child(odd){
+    background :rgb(74, 71, 92);
+}
+
